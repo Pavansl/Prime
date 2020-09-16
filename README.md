@@ -1,2 +1,2 @@
 # prime
-prime or not
+given no is prime or not
