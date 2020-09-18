@@ -1,6 +1,6 @@
 SRC = unity/unity.c\
 src/prime.c\
-test/test_factorial.c\
+test/test_prime.c\
 main.c
 
 INC = -Iunity\
