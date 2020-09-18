@@ -1,5 +1,5 @@
 SRC = unity/unity.c\
-src/factorial.c\
+src/prime.c\
 test/test_factorial.c\
 main.c
 
@@ -7,7 +7,7 @@ INC = -Iunity\
 -Iinc\
 -Itest
 
-PROJECT_NAME = FACTORIAL.out
+PROJECT_NAME = PRIME.out
 
 $(PROJECT_NAME): $(SRC)
 	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
