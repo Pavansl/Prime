@@ -18,6 +18,4 @@ jobs:
         sudo apt-get -y install valgrind
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make test
-      run: |
-        make test prime/.github/workflows/
-        valgrind prime/.github/workflows//build/Test_prime.out
+      run: prime/.github/workflows/
